@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+# @Time    : 25/02/2025 16:19
+# @Author  : TuanThanh
+# @FileName: deformable_detr_twostage_cdn_r50_16x2_50e_hrsc.py
+# @Software: Vscode
+_base_ = "deformable_detr_refine_cdn_r50_16x2_50e_hrsc.py"
+model = dict(
+    bbox_head=dict(
+        as_two_stage=True,
+        two_stage_type="standard",
+    )
+)
+auto_resume = True

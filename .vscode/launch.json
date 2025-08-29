@@ -1,0 +1,14 @@
+{
+    "configurations": [
+      {
+        "type": "debugpy",
+        "request": "launch",
+        "name": "Launch Training Script",
+        "program": "${workspaceFolder}/tools/train.py",
+        "justMyCode": false,
+        "args": [
+          "${workspaceFolder}/configs/deformable_detr/matching_degree_loss.py"
+        ]
+      }
+    ]
+  }
