@@ -236,19 +236,6 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 This work builds upon the excellent [MMRotate](https://github.com/open-mmlab/mmrotate) framework from OpenMMLab. We thank the MMRotate team for providing a solid foundation for rotated object detection research.
 
-## 📚 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@misc{ao2fix2024,
-  title={AO2-FIX: Advanced Rotated Object Detection with Matching Degree Loss and CDN},
-  author={Your Name},
-  year={2024},
-  howpublished={\url{https://github.com/your-username/AO2-FIX}}
-}
-```
-
 ---
 
 **Built with ❤️ for the computer vision research community**
